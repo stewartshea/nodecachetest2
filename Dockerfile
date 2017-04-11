@@ -1,4 +1,4 @@
-FROM nodecachetest/nodejs-cachetest
+FROM nodecachetest/nodejs-cachetest:latest
 MAINTAINER Shea Stewart <shea.stewart@arctiq.ca>
 
 USER root
