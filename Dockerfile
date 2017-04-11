@@ -1,4 +1,7 @@
 FROM nodecachetest/nodejs-cachetest
+MAINTAINER Shea Stewart <shea.stewart@arctiq.ca>
+
+USER root
 
 RUN npm install jitsu -g \
     && mkdir myapp \
