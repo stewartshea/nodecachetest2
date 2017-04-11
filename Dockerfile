@@ -5,4 +5,6 @@ RUN npm install jitsu -g \
     && cd myapp/ \
     && jitsu install http-server
 
+EXPOSE 8080 
+
 CMD ["node", "bin/http-server"]
